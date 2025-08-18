@@ -10,11 +10,11 @@
 ## Repository Map
 | Domain | Repo | Tech | Link |
 |---|---|---|---|
-| Auth | auth-api | Spring Boot | https://github.com/<org>/auth-api |
-| Sending | sending-api | Spring Boot | https://github.com/<org>/sending-api |
-| Analytics | analytics-api | FastAPI | https://github.com/<org>/analytics-api |
-| Web | web-frontend | React | https://github.com/<org>/web-frontend |
-| Infra | infra-azure | IaC / Scripts | https://github.com/<org>/infra-azure |
+| Auth | auth-api | Spring Boot | https://github.com/KTCrack01/api-login-svc  |
+| Sending | sending-api | Spring Boot | https://github.com/KTCrack01/api-sending-svc |
+| Analytics | analytics-api | FastAPI | https://github.com/KTCrack01/api-analytics-svc |
+| Web | web-frontend | React |  https://github.com/KTCrack01/web-frontend |
+
 
 ## Architecture
 - C4 L2 (Containers): `diagrams/c4-l2-containers.png`
