@@ -4,7 +4,8 @@
 **Infra**: Azure Container Apps · Azure DB for PostgreSQL · Key Vault · ACR · (APIM optional)
 
 > 📘 Notion: https://eight-store-0c3.notion.site/252d8432636380f6bb7ecab2ec6c48e0
-> 🔗 Organization: https://github.com/<org>
+> 
+> 🔗 Organization: [https://github.com/<org>](https://github.com/KTCrack01)
 
 ## Repository Map
 | Domain | Repo | Tech | Link |
