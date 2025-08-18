@@ -7,24 +7,22 @@
 > 
 > 🔗 Organization: https://github.com/KTCrack01
 > 
-## Repository Map
-| Domain | Repo | Tech | Link |
+
+## Domains & Missions
+
+| Service          | Domain(무엇을 다룸) | Mission(한 줄 사명) | Repo |
 |---|---|---|---|
-| Auth | auth-api | Spring Boot | https://github.com/KTCrack01/api-login-svc  |
-| Sending | sending-api | Spring Boot | https://github.com/KTCrack01/api-sending-svc |
-| Analytics | analytics-api | FastAPI | https://github.com/KTCrack01/api-analytics-svc |
-| Web | web-frontend | React |  https://github.com/KTCrack01/web-frontend |
+| **auth-api**     | 인증/회원            | 카카오 OAuth로 로그인 처리하고 RS256 JWT 발급/검증을 제공한다. | https://github.com/KTCrack01/api-login-svc |
+| **sending-api**  | 메시징(발송)         | 템플릿·발신번호·예약 기반으로 대량 문자 발송과 KT 콜백 수신을 안정적으로 처리한다. | https://github.com/KTCrack01/api-sending-svc |
+| **analytics-api**| 통계/청구            | 메시지 로그를 집계해 기간·캠페인별 지표와 비용을 빠르게 제공한다. | https://github.com/KTCrack01/api-analytics-svc |
+| **web-frontend** | 사용자 UI            | 로그인/발송/대시보드 화면을 제공하고 API 게이트웨이 한 도메인으로 호출한다. | https://github.com/KTCrack01/web-frontend |
 
 
 ## Architecture
-- C4 L2 (Containers): `diagrams/c4-l2-containers.png`
-- Login Sequence: `diagrams/seq-login.md`
-- Message Flow: `diagrams/seq-message.md`
-- ERD: `diagrams/erd.png`
+
 
 ## Environments
-- Dev: `https://api.dev.example.com` (APIM) / Web: `https://app.dev.example.com`
-- Prod: `https://api.example.com` / Web: `https://app.example.com`
+
 
 ## Security Notes
 - No secrets in this repo. Use **Azure Key Vault**.  
