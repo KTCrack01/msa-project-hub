@@ -56,7 +56,7 @@
 ![ERD](docs/images/erd.png)
 
 ### Architecture
-![Architecture](docs/images/archi.drawio.png)
+![Architecture](docs/images/architecture.png)
 
 ---
 
