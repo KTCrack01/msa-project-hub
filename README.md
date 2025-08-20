@@ -96,6 +96,10 @@
 
 ---
 
+## 📝 API 명세
+https://eight-store-0c3.notion.site/API-254d84326363800293d6fe5bb1d4d358?source=copy_link
+
+
 ## 🚀 개발/운영 메모
 
 - **로컬**: `.env` 파일 관리 (`.gitignore`, `.dockerignore` 포함)  
