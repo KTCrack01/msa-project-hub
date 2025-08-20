@@ -90,6 +90,9 @@
 | ADR-007 | Messaging AI History Component | Accepted | [ADR-007](docs/adr/ADR-007-messaging-ai-history.md) |
 | ADR-008 | Phonebook Service Separation | Accepted | [ADR-008](docs/adr/ADR-008-phonebook-service-separation.md) |
 | ADR-009 | Secret and Config Management | Accepted | [ADR-009](docs/adr/ADR-009-secret-and-config-management.md) |
+| ADR-0010 | Secret and Config Management | Accepted | [ADR-010](docs/adr/ADR-010-ci-cd-tool.md) |
+| ADR-0011 | Secret and Config Management | Accepted | [ADR-011](docs/adr/ADR-011-branch-strategy.md) |
+| ADR-0012 | Secret and Config Management | Accepted | [ADR-012](docs/adr/ADR-012-image-tagging.md) |
 
 ---
 
