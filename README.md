@@ -63,15 +63,15 @@
 ## 📦 서비스 레포지토리
 
 | 서비스 | 설명 | DB |
-|--------|------|----|
-| `api-messaging-svc` | 메시지 생성/전송, 수신자 기록, 상태 콜백 처리 | messaging-db |
-| `api-analytics-svc` | 전송 로그 집계, 대시보드 API | analytics-db |
-| `api-phonebook-svc` | 전화번호부 CRUD, 단체 발송 대상 제공 | phonebook-db |
-| `api-login-svc` | 사용자 로그인 관리 (OAuth2/JWT는 추후 고도화) | login-db |
-| `api-aiagent-svc` | OpenAI API 백엔드 프록시 (Key Vault 관리) | - |
-| `web-frontend` | React 기반 UI (Dashboard, Messaging, Phonebook, AI) | - |
+|---|---|---|
+| [`api-messaging-svc`](https://github.com/KTCrack01/api-messaging-svc) | 메시지 생성/전송, 수신자 기록, 상태 콜백 처리 | messaging-db |
+| [`api-analytics-svc`](https://github.com/KTCrack01/api-analytics-svc) | 전송 로그 집계, 대시보드 API | analytics-db |
+| [`api-phonebook-svc`](https://github.com/KTCrack01/api-phonebook-svc) | 전화번호부 CRUD, 단체 발송 대상 제공 | phonebook-db |
+| [`api-login-svc`](https://github.com/KTCrack01/api-login-svc) | 사용자 로그인 관리 (OAuth2/JWT는 추후 고도화) | login-db |
+| [`api-aiagent-svc`](https://github.com/KTCrack01/api-aiagent-svc) | OpenAI API 백엔드 프록시 (Key Vault 관리) | - |
+| [`web-frontend`](https://github.com/KTCrack01/web-frontend) | React 기반 UI (Dashboard, Messaging, Phonebook, AI) | - |
 
-👉 전체 레포: [KTCrack01 · GitHub](https://github.com/orgs/KTCrack01/repositories)
+> 전체 목록: [KTCrack01 · Repositories](https://github.com/orgs/KTCrack01/repositories)
 
 ---
 
