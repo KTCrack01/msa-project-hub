@@ -1,4 +1,4 @@
-# ADR 011 – 브랜치 전략
+# ADR 010 – 브랜치 전략
 
 ## Context
 현재 브랜치는 `main`, `feature/*`, `issue/*` 세 가지 패턴만 사용한다.  
