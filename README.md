@@ -31,6 +31,8 @@
 | **전화번호부** | https://phonebook-svc-dtd4f8f9cyfee5c0.koreacentral-01.azurewebsites.net |
 | **AI Agent 메시지 보내기** | https://aiagent-svc-dka3epddc7f5hdbm.koreacentral-01.azurewebsites.net |
 
+스웨거 메시징
+https://messaging-svc-a0euekhwgueqd7c0.koreacentral-01.azurewebsites.net/swagger-ui/index.html#/
 ---
 
 ### 🏷️ 릴리즈 정보
