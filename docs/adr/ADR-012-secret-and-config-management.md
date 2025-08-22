@@ -1,4 +1,4 @@
-# ADR-009: Secret and Config Management
+# ADR-012: Secret and Config Management
 
 ## Status
 Accepted
