@@ -1,4 +1,4 @@
-# ADR-020: SMS Provider Selection (Twilio)
+# ADR-007: SMS Provider Selection (Twilio)
 
 ## Status
 Accepted
