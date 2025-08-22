@@ -151,8 +151,9 @@ https://messaging-svc-a0euekhwgueqd7c0.koreacentral-01.azurewebsites.net/swagger
 
 ## 📝 API 명세
 https://eight-store-0c3.notion.site/API-254d84326363800293d6fe5bb1d4d358?source=copy_link
-<img width="1203" height="740" alt="Image" src="https://github.com/user-attachments/assets/2cfc8b19-ad14-4704-8056-adf39ce5b740" />
+<img width="1203" height="740" alt="Image" src="https://github.com/user-attachments/assets/6007fc98-50cd-42be-8e60-d18764c26359" />
 <img width="1209" height="244" alt="Image" src="https://github.com/user-attachments/assets/a0d8e596-d0cb-48a1-941b-1a72fa33086e" />
+
 
 ## 🚀 개발/운영 메모
 
