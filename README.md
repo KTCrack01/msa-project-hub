@@ -5,37 +5,63 @@
 
 ---
 
-## 🧭 프로젝트 개요
+## 📌 기본 정보
 
-- **프로덕트 이름**: 공인알림문자 서비스  
-- **비전**: 효율적이고 신뢰할 수 있는 정보 전달의 표준 제시  
-- **미션**: 기관과 고객 간 소통을 돕고 사회적 비용을 절감하는 솔루션 제공  
+- **팀명**: 🚀 1조
 
-### 핵심가치
-- **신뢰성**: 법적 효력 있는 증명서 제공으로 정보 신뢰도 보장  
-- **편의성**: 별도 앱 설치 없이 간편한 문서 확인/보관  
-- **효율성**: 발송 기관의 절차 단순화 및 예산 절감 기여  
-- **지속 가능성**: 페이퍼리스화로 친환경적 가치 실현  
+### 👥 담당자 & 서비스
+
+| 담당자     | 담당 서비스                          |
+|------------|-------------------------------------|
+| **김지우** | 전화번호부, 로그인                   |
+| **이성무** | 프론트엔드, AI Agent, 메시지 보내기 |
+| **강수민** | 메시지 보내기, 메시지 대시보드       |
 
 ---
 
-## 🎯 전략과제
+### 🌐 데모 링크
 
-1. **메시지 보내기 (Messaging)**  
-   - 메시지 생성, 발송 API (Twilio 등) 연동  
-   - 상태 콜백(queued, delivered, failed 등) 처리  
+| 구분 | URL |
+|------|-----|
+| **프로덕트** | https://web-frontend-ffasfgacfyceeagj.koreacentral-01.azurewebsites.net |
+| **프론트엔드** | https://web-frontend-ffasfgacfyceeagj.koreacentral-01.azurewebsites.net |
+| **로그인** | https://login-svc-gbg8ephsd6bufnca.koreacentral-01.azurewebsites.net |
+| **메시지 보내기** | https://messaging-svc-a0euekhwgueqd7c0.koreacentral-01.azurewebsites.net |
+| **메시지 대시보드** | https://analytics-svc-aucrheemh4edbtac.koreacentral-01.azurewebsites.net |
+| **전화번호부** | https://phonebook-svc-dtd4f8f9cyfee5c0.koreacentral-01.azurewebsites.net |
+| **AI Agent 메시지 보내기** | https://aiagent-svc-dka3epddc7f5hdbm.koreacentral-01.azurewebsites.net |
 
-2. **통계 자료 시각화 (Analytics)**  
-   - 전송 로그 수집 및 DB 저장  
-   - 성공률/실패 사유 분석, 시간대별 그래프  
+---
 
-3. **AI Agent**  
-   - 사용자가 입력한 문구 → 교정/추천/FAQ 응답 제공  
-   - OpenAI API 연동  
+### 🏷️ 릴리즈 정보
+- **버전**: `v1.0`  
+- **날짜**: `2025-08-21`
 
-4. **전화번호부 (Phonebook)**  
-   - 단체문자 발송 편의를 위해 별도 CRUD 서비스 구성  
-   - 독립 DB 운영, Messaging 서비스에서 API 호출  
+---
+
+### ✨ 주요 기능
+- 📩 메시지 전송  
+- 📜 메시지 기록 저장  
+- 🤖 AI Agent 지원  
+- 📊 메시지 대시보드 (전송량, 성공률 등)  
+- 📞 전화번호부 관리  
+
+---
+
+### 🌟 프로젝트 특장점
+**📊 실시간 대시보드 제공**
+- 문자 서버와 연동해 데이터를 실시간 업데이트
+- [근거](https://eight-store-0c3.notion.site/256d8432636380889e17f72c60c1cb8f?source=copy_link)
+
+**🔄 안정적인 문자 리트라이**
+- Transient 에러 발생 시 최대 3회 자동 재전송
+- 메시지 전송의 안정성과 신뢰성 확보
+
+**🧩 MSA 기반 독립 배포**
+- 마이크로서비스 아키텍처(MSA) 설계로 서비스별 독립 배포·운영 가능
+- 특정 서비스 장애 발생 시에도 전체 서비스는 정상 동작
+- 시스템 확장성 & 안정성 강화
+- [근거](https://eight-store-0c3.notion.site/MSA-256d8432636380c3803be764a82e3809?source=copy_link)
 
 ---
 
@@ -52,12 +78,12 @@
 - Frontend: `3000`  
 - Backend 서비스들: `8080`  
 
+### 🏗️ System Architecture
+![Architecture](docs/images/arch_mermaid.png)
+> **상세 아키텍처 문서**: [📐 Architecture Guide](docs/architecture.md)
+
 ### ERD
-![ERD](docs/images/erd.png)
-
-### Architecture
-![Architecture](docs/images/architecture.png)
-
+<img width="960" height="642" alt="Image" src="https://github.com/user-attachments/assets/9e667d47-a92a-4fad-8155-8410af09cbb0" />
 ---
 
 ## 📦 서비스 레포지토리
@@ -72,6 +98,16 @@
 | [`web-frontend`](https://github.com/KTCrack01/web-frontend) | React 기반 UI (Dashboard, Messaging, Phonebook, AI) | - |
 
 > 전체 목록: [KTCrack01 · Repositories](https://github.com/orgs/KTCrack01/repositories)
+
+---
+
+## 📋 프로젝트 현황
+
+> **전체 개발 현황 및 완성도 추적**: [📊 Project Board](docs/project-board.md)  
+> **프로젝트 결과보고 및 회고**: [🎯 Project Retrospective](docs/project-retrospective.md)  
+> **보안 분석 및 고도화 방안**: [🔒 Security Enhancement](docs/security-analysis-and-enhancement.md)
+
+**현재 상태**: 🎯 **95% Complete** | 🟢 **Production Ready**
 
 ---
 
@@ -90,9 +126,12 @@
 | ADR-007 | Messaging AI History Component | Accepted | [ADR-007](docs/adr/ADR-007-messaging-ai-history.md) |
 | ADR-008 | Phonebook Service Separation | Accepted | [ADR-008](docs/adr/ADR-008-phonebook-service-separation.md) |
 | ADR-009 | Secret and Config Management | Accepted | [ADR-009](docs/adr/ADR-009-secret-and-config-management.md) |
-| ADR-0010 | CI CD Tool | Accepted | [ADR-010](docs/adr/ADR-010-ci-cd-tool.md) |
-| ADR-0011 | Branch Strategy | Accepted | [ADR-011](docs/adr/ADR-011-branch-strategy.md) |
-| ADR-0012 | Image Tagging | Accepted | [ADR-012](docs/adr/ADR-012-image-tagging.md) |
+| ADR-010 | CI CD Tool | Accepted | [ADR-010](docs/adr/ADR-010-ci-cd-tool.md) |
+| ADR-011 | Branch Strategy | Accepted | [ADR-011](docs/adr/ADR-011-branch-strategy.md) |
+| ADR-012 | Image Tagging | Accepted | [ADR-012](docs/adr/ADR-012-image-tagging.md) |
+| ADR-013 | Health Check Strategy | Accepted | [ADR-013](docs/adr/ADR-013-health-check-strategy.md) |
+| ADR-014 | Monitoring Strategy | Accepted | [ADR-014](docs/adr/ADR-014-monitoring-strategy.md) |
+| ADR-015 | OIDC Authentication Strategy | Accepted | [ADR-015](docs/adr/ADR-015-oidc-authentication-strategy.md) |
 
 ---
 
