@@ -157,6 +157,63 @@
 
 ---
 
+# 🏥 헬스체크 및 상태 모니터링
+
+> **서비스 상태 실시간 확인**: 모든 마이크로서비스 헬스체크 엔드포인트 제공  
+> **Spring Boot Actuator**: 표준화된 헬스체크 구현  
+> **Azure App Service**: 자동 헬스체크 통합
+
+---
+
+## 1. 서비스별 헬스체크 엔드포인트
+
+### 📋 **백엔드 서비스 헬스체크**
+
+```bash
+# 각 서비스 상태 확인
+curl https://login-svc-gbg8ephsd6bufnca.koreacentral-01.azurewebsites.net/actuator/health      # 🔐 Login Service
+curl https://messaging-svc-a0euekhwgueqd7c0.koreacentral-01.azurewebsites.net/actuator/health  # 📤 Messaging Service  
+curl https://phonebook-svc-dtd4f8f9cyfee5c0.koreacentral-01.azurewebsites.net/actuator/health  # 📞 Phonebook Service
+curl https://analytics-svc-aucrheemh4edbtac.koreacentral-01.azurewebsites.net/actuator/health  # 📊 Analytics Service
+curl https://aiagent-svc-dka3epddc7f5hdbm.koreacentral-01.azurewebsites.net/actuator/health   # 🤖 AI Agent Service
+```
+
+### 🌐 **프론트엔드 헬스체크**
+
+```bash
+# 웹 프론트엔드 상태 확인  
+curl https://web-frontend-ffasfgacfyceeagj.koreacentral-01.azurewebsites.net/                 # 🌐 Web Frontend
+```
+
+---
+
+## 2. 헬스체크 응답 형식
+
+### ✅ **정상 상태 응답**
+
+```json
+{
+  "status": "UP",
+  "timestamp": "2025-01-21T15:30:45.123Z",
+  "version": "1.0.0"
+}
+```
+
+### ❌ **비정상 상태 응답**
+
+```json
+{
+  "status": "DOWN",
+  "timestamp": "2025-01-21T15:30:45.123Z", 
+  "version": "1.0.0",
+  "details": {
+    "error": "Database connection failed"
+  }
+}
+```
+
+---
+
 ## 📝 API 명세
 https://eight-store-0c3.notion.site/API-254d84326363800293d6fe5bb1d4d358?source=copy_link
 <img width="1203" height="740" alt="Image" src="https://github.com/user-attachments/assets/2cfc8b19-ad14-4704-8056-adf39ce5b740" />
