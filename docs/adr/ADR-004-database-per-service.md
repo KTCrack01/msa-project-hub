@@ -1,4 +1,4 @@
-# ADR-001: Database Per Service
+# ADR-004: Database Per Service
 
 ## Status
 Accepted
