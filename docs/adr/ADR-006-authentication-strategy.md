@@ -1,4 +1,4 @@
-# ADR-002: Authentication Strategy
+# ADR-006: Authentication Strategy
 
 ## Status
 Deferred
