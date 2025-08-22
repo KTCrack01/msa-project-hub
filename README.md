@@ -118,21 +118,28 @@
 
 | 번호 | 제목 | 상태 | 링크 |
 |------|------|------|------|
-| ADR-001 | Database Per Service | Accepted | [ADR-001](docs/adr/ADR-001-database-per-service.md) |
-| ADR-002 | Authentication Strategy | Deferred | [ADR-002](docs/adr/ADR-002-authentication-strategy.md) |
-| ADR-003 | Azure Deployment Strategy | Accepted | [ADR-003](docs/adr/ADR-003-azure-deployment-strategy.md) |
-| ADR-004 | Service Port Convention | Accepted | [ADR-004](docs/adr/ADR-004-service-port-convention.md) |
-| ADR-005 | Dummy Data Usage | Accepted | [ADR-005](docs/adr/ADR-005-dummy-data-usage.md) |
-| ADR-006 | OpenAI API Integration | Accepted | [ADR-006](docs/adr/ADR-006-openai-api-integration.md) |
-| ADR-007 | Messaging AI History Component | Accepted | [ADR-007](docs/adr/ADR-007-messaging-ai-history.md) |
-| ADR-008 | Phonebook Service Separation | Accepted | [ADR-008](docs/adr/ADR-008-phonebook-service-separation.md) |
-| ADR-009 | Secret and Config Management | Accepted | [ADR-009](docs/adr/ADR-009-secret-and-config-management.md) |
-| ADR-010 | CI CD Tool | Accepted | [ADR-010](docs/adr/ADR-010-ci-cd-tool.md) |
-| ADR-011 | Branch Strategy | Accepted | [ADR-011](docs/adr/ADR-011-branch-strategy.md) |
-| ADR-012 | Image Tagging | Accepted | [ADR-012](docs/adr/ADR-012-image-tagging.md) |
-| ADR-013 | Health Check Strategy | Accepted | [ADR-013](docs/adr/ADR-013-health-check-strategy.md) |
-| ADR-014 | Monitoring Strategy | Accepted | [ADR-014](docs/adr/ADR-014-monitoring-strategy.md) |
-| ADR-015 | OIDC Authentication Strategy | Accepted | [ADR-015](docs/adr/ADR-015-oidc-authentication-strategy.md) |
+| ADR-001 | Monorepo Repository Strategy | Accepted | [ADR-001](docs/adr/ADR-001-monorepo-repository-strategy.md) |
+| ADR-002 | Technology Stack Baseline | Accepted | [ADR-002](docs/adr/ADR-002-technology-stack-baseline.md) |
+| ADR-003 | API Versioning and Base Path Convention | Accepted | [ADR-003](docs/adr/ADR-003-api-versioning-and-base-path.md) |
+| ADR-004 | Database Per Service | Accepted | [ADR-004](docs/adr/ADR-004-database-per-service.md) |
+| ADR-005 | Service Port Convention | Accepted | [ADR-005](docs/adr/ADR-005-service-port-convention.md) |
+| ADR-006 | Authentication Strategy | Deferred | [ADR-006](docs/adr/ADR-006-authentication-strategy.md) |
+| ADR-007 | SMS Provider Selection (Twilio) | Accepted | [ADR-007](docs/adr/ADR-007-sms-provider-selection.md) |
+| ADR-008 | Messaging AI History Component | Accepted | [ADR-008](docs/adr/ADR-008-messaging-ai-history.md) |
+| ADR-009 | OpenAI API Integration | Accepted | [ADR-009](docs/adr/ADR-009-openai-api-integration.md) |
+| ADR-010 | Branch Strategy | Accepted | [ADR-010](docs/adr/ADR-010-branch-strategy.md) |
+| ADR-011 | Image Tagging Strategy | Accepted | [ADR-011](docs/adr/ADR-011-image-tagging.md) |
+| ADR-012 | Secret and Config Management | Accepted | [ADR-012](docs/adr/ADR-012-secret-and-config-management.md) |
+| ADR-013 | CORS Baseline Policy | Accepted | [ADR-013](docs/adr/ADR-013-cors-baseline-policy.md) |
+| ADR-014 | Container Build and Runtime Policy | Accepted | [ADR-014](docs/adr/ADR-014-container-build-and-runtime-policy.md) |
+| ADR-015 | Phonebook Service Separation | Accepted | [ADR-015](docs/adr/ADR-015-phonebook-service-separation.md) |
+| ADR-016 | Azure Deployment Strategy | Accepted | [ADR-016](docs/adr/ADR-016-azure-deployment-strategy.md) |
+| ADR-017 | Dummy Data Usage | Accepted | [ADR-017](docs/adr/ADR-017-dummy-data-usage.md) |
+| ADR-018 | CI/CD Pipeline Tool | Accepted | [ADR-018](docs/adr/ADR-018-ci-cd-tool.md) |
+| ADR-019 | Health Check Strategy | Accepted | [ADR-019](docs/adr/ADR-019-health-check-strategy.md) |
+| ADR-020 | Monitoring Strategy | Accepted | [ADR-020](docs/adr/ADR-020-monitoring-strategy.md) |
+| ADR-021 | OIDC Authentication Strategy | Draft | [ADR-021](docs/adr/ADR-021-oidc-authentication-strategy.md) |
+---
 
 ---
 
