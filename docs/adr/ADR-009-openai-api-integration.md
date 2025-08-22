@@ -1,4 +1,4 @@
-# ADR-006: OpenAI API Integration
+# ADR-009: OpenAI API Integration
 
 ## Status
 Accepted
