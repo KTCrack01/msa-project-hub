@@ -1,4 +1,4 @@
-# ADR-019: CORS Baseline Policy
+# ADR-013: CORS Baseline Policy
 
 ## Status
 Accepted
