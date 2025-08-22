@@ -1,4 +1,4 @@
-# ADR-015: API Versioning and Base Path Convention
+# ADR-003: API Versioning and Base Path Convention
 
 ## Status
 Accepted
