@@ -1,4 +1,4 @@
-# ADR-013: Technology Stack Baseline
+# ADR-002: Technology Stack Baseline
 
 ## Status
 Accepted
