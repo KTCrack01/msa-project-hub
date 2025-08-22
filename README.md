@@ -54,8 +54,9 @@
 - [근거](https://eight-store-0c3.notion.site/256d8432636380889e17f72c60c1cb8f?source=copy_link)
 
 **🔄 안정적인 문자 리트라이**
-- Transient 에러 발생 시 최대 3회 자동 재전송
+- Transient 에러 발생 시 최대 3회 자동 재전송 (진행중)
 - 메시지 전송의 안정성과 신뢰성 확보
+- [근거 - 코드](https://github.com/KTCrack01/api-messaging-svc/blob/feature/send-message/src/main/java/com/kt/api_messaging_svc/service/MessageService.java)
 
 **🧩 MSA 기반 독립 배포**
 - 마이크로서비스 아키텍처(MSA) 설계로 서비스별 독립 배포·운영 가능
