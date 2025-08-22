@@ -82,6 +82,10 @@
 ![Architecture](docs/images/arch_mermaid.png)
 > **상세 아키텍처 문서**: [📐 Architecture Guide](docs/architecture.md)
 
+### 핵심 플로우
+문자 메시지 과정
+<img width="718" height="400" alt="Image" src="https://github.com/user-attachments/assets/e59ef450-d72f-46d8-a26f-8385b7980ab6" />
+
 ### ERD
 <img width="960" height="642" alt="Image" src="https://github.com/user-attachments/assets/9e667d47-a92a-4fad-8155-8410af09cbb0" />
 ---
