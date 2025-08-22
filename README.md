@@ -9,12 +9,17 @@
 
 - **팀명**: 🚀 1조
 
+### 👥 담당자 & 서비스
+
+| 담당자     | 담당 서비스                          |
+|------------|-------------------------------------|
+| **김지우** | 전화번호부, 로그인                   |
+| **이성무** | 프론트엔드, AI Agent, 메시지 보내기 |
+| **강수민** | 메시지 보내기, 메시지 대시보드       |
+
 ---
 
 ### 🌐 데모 링크
-로그인 <br/>
-아이디: jessica0409@naver.com <br/>
-비밀번호: sumin0827 <br/>
 
 | 구분 | URL |
 |------|-----|
@@ -25,10 +30,6 @@
 | **메시지 대시보드** | https://analytics-svc-aucrheemh4edbtac.koreacentral-01.azurewebsites.net |
 | **전화번호부** | https://phonebook-svc-dtd4f8f9cyfee5c0.koreacentral-01.azurewebsites.net |
 | **AI Agent 메시지 보내기** | https://aiagent-svc-dka3epddc7f5hdbm.koreacentral-01.azurewebsites.net |
-
-스웨거 <br/>
-메시지: https://messaging-svc-a0euekhwgueqd7c0.koreacentral-01.azurewebsites.net/swagger-ui/index.html#/  <br/>
-메시지 대시보드: https://analytics-svc-aucrheemh4edbtac.koreacentral-01.azurewebsites.net/swagger-ui/index.html <br/>
 
 ---
 
@@ -53,9 +54,8 @@
 - [근거](https://eight-store-0c3.notion.site/256d8432636380889e17f72c60c1cb8f?source=copy_link)
 
 **🔄 안정적인 문자 리트라이**
-- Transient 에러 발생 시 최대 3회 자동 재전송 (진행중)
+- Transient 에러 발생 시 최대 3회 자동 재전송
 - 메시지 전송의 안정성과 신뢰성 확보
-- [근거 - 코드](https://github.com/KTCrack01/api-messaging-svc/blob/feature/send-message/src/main/java/com/kt/api_messaging_svc/service/MessageService.java)
 
 **🧩 MSA 기반 독립 배포**
 - 마이크로서비스 아키텍처(MSA) 설계로 서비스별 독립 배포·운영 가능
@@ -111,6 +111,18 @@
 
 ---
 
+## 📚 기술 문서
+
+### **🏗️ 아키텍처 & 설계**
+- **[📐 System Architecture](docs/architecture.md)** - 전체 시스템 아키텍처 다이어그램 및 상세 설명
+- **[🚀 Deployment Guide](docs/3_deployment.md)** - 배포 가이드 및 운영 매뉴얼
+
+### **🔒 보안 & 모니터링**  
+- **[🔒 Security Analysis](docs/security-analysis-and-enhancement.md)** - 보안 취약점 분석 및 고도화 방안
+- **[🎯 Project Retrospective](docs/project-retrospective.md)** - 프로젝트 회고 및 학습 성과
+
+---
+
 ## 📚 Architecture Decision Records (ADR)
 
 허브 내 `docs/adr/` 경로에 기록  
@@ -119,89 +131,33 @@
 |------|------|------|------|
 | ADR-001 | Monorepo Repository Strategy | Accepted | [ADR-001](docs/adr/ADR-001-monorepo-repository-strategy.md) |
 | ADR-002 | Technology Stack Baseline | Accepted | [ADR-002](docs/adr/ADR-002-technology-stack-baseline.md) |
-| ADR-003 | API Versioning and Base Path Convention | Accepted | [ADR-003](docs/adr/ADR-003-api-versioning-and-base-path.md) |
+| ADR-003 | API Versioning and Base Path | Accepted | [ADR-003](docs/adr/ADR-003-api-versioning-and-base-path.md) |
 | ADR-004 | Database Per Service | Accepted | [ADR-004](docs/adr/ADR-004-database-per-service.md) |
 | ADR-005 | Service Port Convention | Accepted | [ADR-005](docs/adr/ADR-005-service-port-convention.md) |
-| ADR-006 | Authentication Strategy | Deferred | [ADR-006](docs/adr/ADR-006-authentication-strategy.md) |
-| ADR-007 | SMS Provider Selection (Twilio) | Accepted | [ADR-007](docs/adr/ADR-007-sms-provider-selection.md) |
-| ADR-008 | Messaging AI History Component | Accepted | [ADR-008](docs/adr/ADR-008-messaging-ai-history.md) |
+| ADR-006 | Authentication Strategy | Accepted | [ADR-006](docs/adr/ADR-006-authentication-strategy.md) |
+| ADR-007 | SMS Provider Selection | Accepted | [ADR-007](docs/adr/ADR-007-sms-provider-selection.md) |
+| ADR-008 | Messaging AI History | Accepted | [ADR-008](docs/adr/ADR-008-messaging-ai-history.md) |
 | ADR-009 | OpenAI API Integration | Accepted | [ADR-009](docs/adr/ADR-009-openai-api-integration.md) |
 | ADR-010 | Branch Strategy | Accepted | [ADR-010](docs/adr/ADR-010-branch-strategy.md) |
-| ADR-011 | Image Tagging Strategy | Accepted | [ADR-011](docs/adr/ADR-011-image-tagging.md) |
+| ADR-011 | Image Tagging | Accepted | [ADR-011](docs/adr/ADR-011-image-tagging.md) |
 | ADR-012 | Secret and Config Management | Accepted | [ADR-012](docs/adr/ADR-012-secret-and-config-management.md) |
 | ADR-013 | CORS Baseline Policy | Accepted | [ADR-013](docs/adr/ADR-013-cors-baseline-policy.md) |
 | ADR-014 | Container Build and Runtime Policy | Accepted | [ADR-014](docs/adr/ADR-014-container-build-and-runtime-policy.md) |
 | ADR-015 | Phonebook Service Separation | Accepted | [ADR-015](docs/adr/ADR-015-phonebook-service-separation.md) |
 | ADR-016 | Azure Deployment Strategy | Accepted | [ADR-016](docs/adr/ADR-016-azure-deployment-strategy.md) |
 | ADR-017 | Dummy Data Usage | Accepted | [ADR-017](docs/adr/ADR-017-dummy-data-usage.md) |
-| ADR-018 | CI/CD Pipeline Tool | Accepted | [ADR-018](docs/adr/ADR-018-ci-cd-tool.md) |
+| ADR-018 | CI/CD Tool | Accepted | [ADR-018](docs/adr/ADR-018-ci-cd-tool.md) |
 | ADR-019 | Health Check Strategy | Accepted | [ADR-019](docs/adr/ADR-019-health-check-strategy.md) |
 | ADR-020 | Monitoring Strategy | Accepted | [ADR-020](docs/adr/ADR-020-monitoring-strategy.md) |
-| ADR-021 | OIDC Authentication Strategy | Draft | [ADR-021](docs/adr/ADR-021-oidc-authentication-strategy.md) |
----
+| ADR-021 | OIDC Authentication Strategy | Accepted | [ADR-021](docs/adr/ADR-021-oidc-authentication-strategy.md) |
 
 ---
 
 ## 📝 API 명세
 https://eight-store-0c3.notion.site/API-254d84326363800293d6fe5bb1d4d358?source=copy_link
-<img width="1203" height="740" alt="Image" src="https://github.com/user-attachments/assets/6007fc98-50cd-42be-8e60-d18764c26359" />
+<img width="1203" height="740" alt="Image" src="https://github.com/user-attachments/assets/2cfc8b19-ad14-4704-8056-adf39ce5b740" />
+<img width="1209" height="244" alt="Image" src="https://github.com/user-attachments/assets/a0d8e596-d0cb-48a1-941b-1a72fa33086e" />
 
-# 🏥 헬스체크 및 상태 모니터링
-
-> **서비스 상태 실시간 확인**: 모든 마이크로서비스 헬스체크 엔드포인트 제공  
-> **Spring Boot Actuator**: 표준화된 헬스체크 구현  
-> **Azure App Service**: 자동 헬스체크 통합
-
----
-
-## 1. 서비스별 헬스체크 엔드포인트
-
-### 📋 **백엔드 서비스 헬스체크**
-
-```bash
-# 각 서비스 상태 확인
-curl https://login-svc-gbg8ephsd6bufnca.koreacentral-01.azurewebsites.net/actuator/health      # 🔐 Login Service
-curl https://messaging-svc-a0euekhwgueqd7c0.koreacentral-01.azurewebsites.net/actuator/health  # 📤 Messaging Service  
-curl https://phonebook-svc-dtd4f8f9cyfee5c0.koreacentral-01.azurewebsites.net/actuator/health  # 📞 Phonebook Service
-curl https://analytics-svc-aucrheemh4edbtac.koreacentral-01.azurewebsites.net/actuator/health  # 📊 Analytics Service
-curl https://aiagent-svc-dka3epddc7f5hdbm.koreacentral-01.azurewebsites.net/actuator/health   # 🤖 AI Agent Service
-```
-
-### 🌐 **프론트엔드 헬스체크**
-
-```bash
-# 웹 프론트엔드 상태 확인  
-curl https://web-frontend-ffasfgacfyceeagj.koreacentral-01.azurewebsites.net/                 # 🌐 Web Frontend
-```
-
----
-
-## 2. 헬스체크 응답 형식
-
-### ✅ **정상 상태 응답**
-
-```json
-{
-  "status": "UP",
-  "timestamp": "2025-01-21T15:30:45.123Z",
-  "version": "1.0.0"
-}
-```
-
-### ❌ **비정상 상태 응답**
-
-```json
-{
-  "status": "DOWN",
-  "timestamp": "2025-01-21T15:30:45.123Z", 
-  "version": "1.0.0",
-  "details": {
-    "error": "Database connection failed"
-  }
-}
-```
-
----
 ## 🚀 개발/운영 메모
 
 - **로컬**: `.env` 파일 관리 (`.gitignore`, `.dockerignore` 포함)  
