@@ -1,4 +1,4 @@
-# ADR-007: Messaging AI History Component
+# ADR-008: Messaging AI History Component
 
 ## Status
 Accepted
